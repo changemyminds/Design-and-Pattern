@@ -13,7 +13,7 @@
 <br><br>
 
 ### 4. Reference
-[非關語言：設計模式](https://openhome.cc/Gossip/DesignPattern/)
+- [非關語言：設計模式](https://openhome.cc/Gossip/DesignPattern/)
 
 
 
