@@ -1,6 +1,6 @@
 ﻿# Design and Pattern Study
 
-- 1. Creational pattern
+- Creational pattern
 	- [Singleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/src/com/company)
 	- [RegistryOfSingleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/RegistryOfSingleton/src)
 	- Simple Factory Example
