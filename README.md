@@ -8,14 +8,14 @@
 - Simple Factory Example
 - Abstract Factory
 - Factory Method
-<br><br>
+<br>
 
 ### 2. Structural pattern
 - Default Adapter
-<br><br>
+<br>
 
 ### 3. Behavioral pattern
-<br><br>
+<br>
 
 ### 4. Reference
 - [非關語言：設計模式](https://openhome.cc/Gossip/DesignPattern/)
