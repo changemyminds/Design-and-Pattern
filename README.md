@@ -3,10 +3,15 @@
 ### 1. Creational pattern
 - [Singleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/src/com/company)
 - [RegistryOfSingleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/RegistryOfSingleton/src)
+- Prototype
+- Builder
 - Simple Factory Example
+- Abstract Factory
+- Factory Method
 <br><br>
 
 ### 2. Structural pattern
+- Default Adapter
 <br><br>
 
 ### 3. Behavioral pattern
