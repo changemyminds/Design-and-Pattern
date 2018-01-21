@@ -1,8 +1,8 @@
-# design and pattern study
+﻿# design and pattern study
 
 ## 1. Creational pattern
-- [Singleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton)
-- RegistryOfSingleton Example
+- [Singleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/src/com/company)
+- [RegistryOfSingleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/RegistryOfSingleton/src)
 - Simple Factory Example
 <br><br>
 
