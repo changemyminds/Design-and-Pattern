@@ -5,7 +5,7 @@
 - [RegistryOfSingleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/RegistryOfSingleton/src)
 - Prototype
 - Builder
-- Simple Factory Example
+- [Simple Factory Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/SimpleFactory/src)
 - Abstract Factory
 - Factory Method
 
