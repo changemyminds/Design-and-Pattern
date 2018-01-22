@@ -11,8 +11,27 @@
 
 ### 2. Structural pattern
 - Default Adapter
+- Adapter - Object Adapter
+- Adapter - Class Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
 
 ### 3. Behavioral pattern
+- Chain of Responsibility
+- Command
+- Iterator
+- Strategy
+- Template Method
+- Observer
+- Mediator
+- State
+- Memento
+- Visitor
+- Interpreter
 
 ### 4. Reference
 - [非關語言：設計模式](https://openhome.cc/Gossip/DesignPattern/)
