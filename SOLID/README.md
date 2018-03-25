@@ -1,5 +1,5 @@
-##SOLID Design Principles
-## Single Responsibility Principle(SRP)
+# SOLID Design Principles
+## **S**ingle Responsibility Principle(SRP)
 - 定義：一個class應該只有一個需要改變的原因。
 - 解釋：一個類別只做一件事情。
 - 問題：
