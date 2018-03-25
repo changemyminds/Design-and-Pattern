@@ -1,5 +1,12 @@
 ﻿# Design and Pattern Study
 
+### 0. SOLID Design Principles
+- Single Responsibility Principle(SRP)
+- Open Closed Principle(OCP)
+- Liskov Substitution Principle(LSP)
+- Interface Segregation Principle(ISP)
+- Dependency Inversion Principle(DIP)
+
 ### 1. Creational pattern
 - [Singleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/src/com/company)
 - [RegistryOfSingleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/RegistryOfSingleton/src)
@@ -35,6 +42,6 @@
 
 ### 4. Reference
 - [非關語言：設計模式](https://openhome.cc/Gossip/DesignPattern/)
-
+- [SOLID 設計原則](http://rockssdlog.blogspot.tw/2012/03/oo-solid.html)
 
 
