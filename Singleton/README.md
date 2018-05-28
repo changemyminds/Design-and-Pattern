@@ -18,7 +18,7 @@ E.g., the constructor call is expensive
 ## 遇到的問題
 - Serialization
 - Reflection
-- Muti-Thread
+- Thread-safe
 
 ## 範例
 ### [BasicSingleton](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/BasicSingleton/src/Demo.java)
@@ -29,6 +29,6 @@ E.g., the constructor call is expensive
 此方法再多執行緒下，並不會出現問題，能夠維持單一的實體。
 
 ### [EasySingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/EasySingleton/src/com/company)
-使用三種方式來建立Singleton，其中兩種方式，會因為Muti-Thread造成不為單一例子的情況。
+使用三種方式來建立Singleton，其中兩種方式，會因為Muti-Thread造成Thread-safe不為單一例子的情況。
 
 ### [RegistryOfSingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/RegistryOfSingleton/src)
