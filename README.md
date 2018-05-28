@@ -8,8 +8,7 @@
 - Dependency Inversion Principle(DIP)
 
 ### 1. Creational pattern
-- [Singleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/src/com/company)
-- [RegistryOfSingleton Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/RegistryOfSingleton/src)
+- Singleton
 - Prototype
 - Builder
 - [Simple Factory Example](https://github.com/changemyminds/Design-and-Pattern/tree/master/SimpleFactory/src)
