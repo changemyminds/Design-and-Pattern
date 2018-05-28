@@ -29,7 +29,7 @@ E.g., the constructor call is expensive
 此方法再多執行緒下，並不會出現問題，能夠維持單一的實體。
 
 ### [LazySingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/LazySingleton/src/com/company)
-使用三種方式來建立Singleton，其中兩種方式，會因為Muti-Thread造成Thread-safe不為單一例子的情況。
+使用四種方式來建立Singleton，其中兩種方式為Synchronized Accessor和Double Checked Locking，另外兩種方式會因為Muti-Thread造成Thread-safe不為單一例子的情況。
 
 ### [InnerStaticSingleton](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/InnerStaticSingleton/src/Demo.java)
 一般又可以稱為LazyHolder，並且也維持單一實體，這種方始較佳符合「延遲載入」、「高效能」，缺點是不可用在非靜態類別的屬性上面。
