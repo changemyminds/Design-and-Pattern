@@ -22,7 +22,11 @@ E.g., the constructor call is expensive
 
 ## 範例
 ### [BasicSingleton](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/BasicSingleton/src/Demo.java)
-建立一個簡單的Singleton，並將Object Serialization(序列化)存入檔案中，再將其讀取與原本的物件比較是否相同，會發現讀取的物件與原本的物件是不相同的。
+建立一個簡單的Singleton，並將Object Serialization(序列化)存入檔案中，再將其讀取與原本的物件比較是否相同，會發現讀取的物件與原本的物件是不相同的，而且再多執行緒下會有問題。
+
+### [StaticBlockSingleton](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/StaticBlockSingleton/src/Demo.java)
+利用Static Initializer，來建立Singleton，Static Initializer的方法跟類別中定義的建構子很像，它的功能在於初始化類別，當類別初次被使用、被載入至JVM時，會執行static block裡面的程式碼。
+此方法再多執行緒下，並不會出現問題，能夠維持單一的實體。
 
 ### [EasySingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/EasySingleton/src/com/company)
 使用三種方式來建立Singleton，其中兩種方式，會因為Muti-Thread造成不為單一例子的情況。
