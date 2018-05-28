@@ -16,9 +16,14 @@ E.g., the constructor call is expensive
 - Nedd to take care of lazy instatiation and thread safety
 
 ## 遇到的問題
-- refection
-- serialization
+- Refection
+- Serialization
+- Muti-Thread
 
 ## 範例
+BasicSingleton
 
+[EasySingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/EasySingleton/src/com/company)
+使用三種方式來建立Singleton，其中兩種方式，會因為Muti-Thread造成不為單一例子的情況。
 
+[RegistryOfSingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/RegistryOfSingleton/src)
