@@ -31,8 +31,12 @@ E.g., the constructor call is expensive
 ### [LazySingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/LazySingleton/src/com/company)
 使用三種方式來建立Singleton，其中兩種方式，會因為Muti-Thread造成Thread-safe不為單一例子的情況。
 
-### [InnerStaticSingle](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/InnerStaticSingleton/src/Demo.java)
+### [InnerStaticSingleton](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/InnerStaticSingleton/src/Demo.java)
 一般又可以稱為LazyHolder，並且也維持單一實體，這種方始較佳符合「延遲載入」、「高效能」，缺點是不可用在非靜態類別的屬性上面。
+
+### [Monostate](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/MonoState/src/Demo.java)
+和Singleton類似，但是Singleton通常有一個getInstance的method，用起來和一般物件不同，而MonoState的運作方式與一般物件相同，它讓所產生的物件中的屬性相同，
+但缺點是物件有建構與解構的方式，而且產生的新物件是不同的，因次效率較Singleton差。
 
 ### [RegistryOfSingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/RegistryOfSingleton/src)
 
