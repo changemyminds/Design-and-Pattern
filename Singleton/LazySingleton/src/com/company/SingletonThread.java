@@ -17,5 +17,6 @@ public class SingletonThread extends Thread {
         //mSingleton = Singleton.getInstanceFail();
         //mSingleton = Singleton.getInstanceFail1();
         mSingleton = Singleton.getInstance();
+        //mSingleton = Singleton.getInstance1();
     }
 }
