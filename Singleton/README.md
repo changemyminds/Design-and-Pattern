@@ -22,9 +22,12 @@ E.g., the constructor call is expensive
 
 ## 範例
 ### [BasicSingleton](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/BasicSingleton/src/Demo.java)
-- 題目：建立一個簡單的Singleton，並將Object Serialization(序列化)存入檔案中，再將其讀取與原本的物件比較是否相同，會發現讀取的物件與原本的物件是不相同的。
+#### 題目
+<font size=2>
+建立一個簡單的Singleton，並將Object Serialization(序列化)存入檔案中，再將其讀取與原本的物件比較是否相同，會發現讀取的物件與原本的物件是不相同的。
+</font>
 
-- 原因<br>
+原因<br>
 因為JVM不在乎你的類別建構子是否為private，他還是會建構一個新的物件。
 
 解決辦法<br>
