@@ -21,12 +21,13 @@ E.g., the constructor call is expensive
 - Muti-Thread
 
 ## 範例
-### BasicSingleton
-題目：建立一個簡單的Singleton，並將Object Serialization(序列化)存入檔案中，再將其讀取與原本的物件比較是否相同，會發現讀取的物件與原本的物件是不相同的。
+### [BasicSingleton](https://github.com/changemyminds/Design-and-Pattern/blob/master/Singleton/BasicSingleton/src/Demo.java)
+- 題目：建立一個簡單的Singleton，並將Object Serialization(序列化)存入檔案中，再將其讀取與原本的物件比較是否相同，會發現讀取的物件與原本的物件是不相同的。
 
-原因：因為JVM不在乎你的類別建構子是否為private，他還是會建構一個新的物件。
+- 原因：因為JVM不在乎你的類別建構子是否為private，他還是會建構一個新的物件。
 
-解決辦法：加上readResolve()方法，來確保沒有人可以通過序列化或反序列化來創建另一個實體。
+- 解決辦法
+加上readResolve()方法，來確保沒有人可以通過序列化或反序列化來創建另一個實體。
 
 ### [EasySingleton](https://github.com/changemyminds/Design-and-Pattern/tree/master/Singleton/EasySingleton/src/com/company)
 使用三種方式來建立Singleton，其中兩種方式，會因為Muti-Thread造成不為單一例子的情況。
