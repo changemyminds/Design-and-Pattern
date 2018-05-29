@@ -1,7 +1,7 @@
 # Adapter(轉接器)
 
 ## 前言
-Getting the interface you want from the interface you have.
+Getting the interface you want from the interface you have.<br>
 A construct which adapts an existing interface X to conform to the required interface Y.
 
 ## 動機
