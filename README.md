@@ -16,9 +16,7 @@
 - Factory Method
 
 ### 2. Structural pattern
-- Default Adapter
-- Adapter - Object Adapter
-- Adapter - Class Adapter
+- Adapter
 - Bridge
 - Composite
 - Decorator

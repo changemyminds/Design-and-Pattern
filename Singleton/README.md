@@ -1,4 +1,4 @@
-﻿# Singleton
+﻿# Singleton(單一個實例)
 
 ## 前言
 When discussing which patterns to drop, we found that we still love them all.
@@ -45,3 +45,16 @@ E.g., the constructor call is expensive
 - Singletons are difficult to test.
 - Instead of directly using a singleton, consider depending on an abstraction (e.g., an interface)
 - Consider defining singleton lifetime in DI container
+
+## 筆記
+Singleton
+希望確保一個類別在系統運行的時候，只有一實例(instance)產生，同時這個類別必須提供一個公開的方法讓其他人取得自己的實體。
+
+在某些情況下，你的程式只會希望有一個物件的實體存在，比如說連接資料庫的物件、程式管理員的物件、處理印表機列印的類別等等。
+如果這些物件可以有多個實體，那每次需要這些功能的時候，我們都可以任意的new一個實體出來進行操作，這樣會造成相當恐怖的結果。
+
+有三個重點：
+1. 要有一個private static變數：用來記錄類別的實體。因為是私有的，所以外部沒辦法直接透過Singleton.instance來存取。
+2. 類別擁有一個私有的建構子：其他的方法沒辦法直接產生這個類別的實體，說的白話一點，就是不能用讓人使用new Singleton()這樣的方式來產生實體。
+3. 擁有一個公開取得物件實體的方法：由於是私有的建構子的原因，要產生這個類別的實體，只能靠自己類別的產生。但是又必須要讓外部能夠呼叫，所以要設定為公開的靜態方法。
+這種方法稱為[Lazy Instantiation]，使用Singleton.getInstance()這樣的方法來取得Singleton這個類別的實體。
