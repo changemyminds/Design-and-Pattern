@@ -15,9 +15,17 @@ We cannot modify our gadgets to support every possible interface
 Thus, we use a special device(an adapter) to give us the interface we require from the interface we have
 
 ## 遇到的問題
- 
+
 
 ## 範例
+### [ClassAndObjectAdapter](https://github.com/changemyminds/Design-and-Pattern/tree/master/Adapter/ClassAndObjectAdapter/src)
+使用Class Adapter 和 Object Adapter來執行。
+原本有一個插頭他只提供120V的電壓，現在要將這個插頭也可以提供3V、12V、120V的電壓，該怎麼辦？
+Class Adapter – This form uses java inheritance and extends the source interface, in our case Socket class.
+Object Adapter – This form uses Java Composition and adapter contains the source object.
  
 ## 總結
- 
+- Implementing an Adapter is easy
+- Determine the API you have and the API you need
+- Create a component which aggregates(has a reference to, ...) the adaptee
+- Intermediate representations can pile up: use caching and other optimizations
