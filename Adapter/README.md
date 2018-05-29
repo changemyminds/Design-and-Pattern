@@ -19,9 +19,9 @@ Thus, we use a special device(an adapter) to give us the interface we require fr
 
 ## 範例
 ### [ClassAndObjectAdapter](https://github.com/changemyminds/Design-and-Pattern/tree/master/Adapter/ClassAndObjectAdapter/src)
-使用Class Adapter 和 Object Adapter來執行。
-原本有一個插頭他只提供120V的電壓，現在要將這個插頭也可以提供3V、12V、120V的電壓，該怎麼辦？
-Class Adapter – This form uses java inheritance and extends the source interface, in our case Socket class.
+使用Class Adapter 和 Object Adapter來執行。<br>
+原本有一個插頭他只提供120V的電壓，現在要將這個插頭也可以提供3V、12V、120V的電壓，該怎麼辦？<br>
+Class Adapter – This form uses java inheritance and extends the source interface, in our case Socket class.<br>
 Object Adapter – This form uses Java Composition and adapter contains the source object.
  
 ## 總結
