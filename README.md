@@ -18,7 +18,7 @@
 ### 2. Structural pattern
 - [Adapter](https://github.com/changemyminds/Design-and-Pattern/tree/master/Adapter)
 - Bridge
-- Composite
+- [Composite](https://github.com/changemyminds/Design-and-Pattern/tree/master/Composite)
 - Decorator
 - Facade
 - Flyweight
