@@ -15,11 +15,13 @@ We cannot modify our gadgets to support every possible interface
 Thus, we use a special device(an adapter) to give us the interface we require from the interface we have
 
 ## 遇到的問題
-
+使用Class Adapter好還是該用Object Adapter好？<br>
+其實就是繼承(inheritance) vs 複合(composition)的問題，目前的趨勢都是建議少用繼承(inheritance)多用複合(composition)來完成。<br>
+所以個人推薦使用Object Adapter較佳。<br>
 
 ## 範例
 ### [ClassAndObjectAdapter](https://github.com/changemyminds/Design-and-Pattern/tree/master/Adapter/ClassAndObjectAdapter/src)
-使用Class Adapter 和 Object Adapter來執行。<br>
+使用Class Adapter和Object Adapter來執行。<br>
 原本有一個插頭他只提供120V的電壓，現在要將這個插頭也可以提供3V、12V、120V的電壓，該怎麼辦？<br><br>
 補充<br>
 Class Adapter – This form uses java inheritance and extends the source interface, in our case Socket class.<br>
