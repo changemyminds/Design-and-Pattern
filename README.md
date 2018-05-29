@@ -16,7 +16,7 @@
 - Factory Method
 
 ### 2. Structural pattern
-- Adapter
+- [Adapter](https://github.com/changemyminds/Design-and-Pattern/tree/master/Adapter)
 - Bridge
 - Composite
 - Decorator
