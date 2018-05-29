@@ -16,8 +16,8 @@ Thus, we use a special device(an adapter) to give us the interface we require fr
 
 ## 遇到的問題
 使用Class Adapter好還是該用Object Adapter好？<br>
-其實就是繼承(inheritance) vs 複合(composition)的問題<br>
-目前的趨勢都是建議少用繼承(inheritance)多用複合(composition)來完成，所以個人推薦使用Object Adapter較佳。<br>
+其實就是繼承(inheritance) vs 組合(composition)的問題<br>
+多組合少繼承，所以個人推薦使用Object Adapter較佳。<br>
 
 ## 範例
 ### [ClassAndObjectAdapter](https://github.com/changemyminds/Design-and-Pattern/tree/master/Adapter/ClassAndObjectAdapter/src)
