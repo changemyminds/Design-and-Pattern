@@ -40,5 +40,5 @@
 ### 4. Reference
 - [非關語言：設計模式](https://openhome.cc/Gossip/DesignPattern/)
 - [SOLID 設計原則](http://rockssdlog.blogspot.tw/2012/03/oo-solid.html)
-
+- [物件導向設計原則—SOLID](https://ithelp.ithome.com.tw/articles/10191553)
 
